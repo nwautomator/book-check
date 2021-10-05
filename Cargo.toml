@@ -1,11 +1,12 @@
 [package]
 name = "book-check"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2018"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+anyhow = "1.0.44"
 clap = "2"
 reqwest = { version = "0.11", features = ["json"] }
 term = "0.7"
